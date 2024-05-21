@@ -1,0 +1,141 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body background color */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content area styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Event section styles */
+#events {
+    margin-bottom: 20px;
+}
+
+.event {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.event h3 {
+    color: #333;
+}
+
+/* Add event form styles */
+#add-event {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#add-event form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#add-event label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#add-event input[type="text"],
+#add-event textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#add-event input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#add-event input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+/*style for event image*/
+.event-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the entire space */
+    border-radius: 50%; /* Optional: creates a circular image */
+    margin-right: 10px; /* Optional: adds some spacing between the image and event details */
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  footer li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer li a:hover {
+    text-decoration: underline;
+  }
+
+  .nav-color {
+    background-color: #95c663;
+  }
+  /* styles for Delete Button */
+  .delete-button {
+    background-color: #ff5c5c; /* Red background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+  }
+  
+  .delete-button:hover {
+    background-color: #ff3333; /* Darker red color on hover */
+  }
+  
